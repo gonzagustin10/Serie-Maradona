@@ -1,0 +1,790 @@
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.encabezado{
+	background-color: black;
+	margin-bottom: -3%;
+}
+
+.encabezado nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 1%;
+	
+}
+
+.encabezado nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.encabezado nav a {
+	text-decoration: none;
+	color: white;
+	padding: 12px 20px;
+	display: block;
+	font-size: 20px;
+}
+
+.encabezado nav ul li ul{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	display: none;
+}
+
+.encabezado a{
+	background-color: black;
+}
+
+.encabezado a:hover{
+	background-color: white;
+	color: black;
+}
+
+.encabezado nav ul li:hover> ul{
+	display: block;
+}
+
+.encabezado nav img{
+	width: 65px;
+	margin-left: -180%;
+	padding-bottom: -15%;
+}
+
+body{
+    background-color: white;
+	background-image:url(./Imagenes/marado.webp) ;
+	background-repeat: no-repeat;	
+	
+}
+
+section {
+	margin-top: 3%;
+}
+
+#ImagenPrincipal img{
+	width: 100%;
+	height: 620px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+}
+
+.articulo {
+	margin-top: 5%;
+	display: flex;
+}
+
+.articulo div{
+	width: 50%;
+	padding: 3%;
+	text-align: center;
+}
+
+.articulo div img {
+	width: 50%;
+}
+
+.articulo div h2{
+	margin-top: 9%;
+	width: 75%;
+	margin-left: 40%;
+}
+
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+.articulo{
+	margin-top: 5%;
+	display: flex
+}
+
+#Trailer{
+	
+    margin-left: 30%;
+    justify-content: center;
+	align-items: center;
+	
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	margin-bottom: 2%;
+}
+
+h3{
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+
+.Articulo div{
+	align-content: center;
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	
+}
+
+.Articulo div h3{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+	text-align: center;
+	margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.Articulo div img{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+	align-items: center;
+
+}
+
+#nafta2{
+	max-width: 200px;	
+	margin-bottom: -10%;
+}
+
+.articuloGaleria div{
+	margin-top: 6%;
+	margin-left: 7%;
+	display: inline;
+}
+
+.articuloGaleria div img{
+	display: inline;
+	padding: 3%;
+	text-align: center;
+}
+
+h1{
+	margin-top: 8%;
+	margin-left: 10%;
+	font-size: 300%;
+}
+
+.episodiosdiv{
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.episodiosdiv h2{
+	font-size: 200%;
+}
+
+.episodiosdiv img{
+	width: 50%;
+}
+
+#h2episodio2{
+	display: inline-block;
+	margin-right: 5%;
+	font-size: 180%;
+}
+
+.articuloDiegoMaradona div{
+	margin-top: 5%;
+	width: 50%;
+	display: inline-block;
+	margin-left: 10%;
+	
+}
+
+.articuloDiegoMaradona div h2{
+	margin-top: 6%;
+	text-align: center;
+}
+.articuloDiegoMaradona img{
+	margin-top: 3%;
+	width: 20%;
+	padding-left: 8%;
+}	
+
+.articuloDiegoMaradonaBoca{
+	display: flex;
+}
+
+.articuloDiegoMaradonaBoca div{
+	width: 30%;
+	margin-left:  13%;
+	justify-content: center;
+	align-items: center;
+}a
+
+.articuloDiegoMaradonaBoca div h2{
+	justify-content: center;
+	align-items: center;
+	padding-top: 60%;
+	text-align: center;
+}
+
+.articuloDiegoMaradonaBoca img{
+	margin-top: 30%;
+	width: 100%;
+	margin-left: 10%;
+}
+
+.articuloMaradonaBarcelona{
+	display: flex;
+}
+
+.articuloMaradonaBarcelona div{
+	width: 55%;
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-right: 5%;
+	text-align: center;
+}
+
+.articuloMaradonaBarcelona h2{
+	padding-top: 2%;
+	text-align: center;
+}
+
+.articuloMaradonaBarcelona img{
+	padding-left: 7%;
+	width: 90%;
+	text-align: center;
+}
+
+.articuloMaradonaNapoles{
+	display: flex;
+}
+
+.articuloMaradonaNapoles div{
+	margin-top: 5%;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+}
+
+.articuloMaradonaNapoles img{
+	width: 80%;
+	padding-left: 10%;
+	padding-top: 15%;
+}
+
+.articuloMaradonaNapoles h2{
+	font-size: 120%;
+	padding-top: 15%;
+	margin-left: 2%;
+	padding-right: 5%;
+	text-align: center;
+}
+
+#eurocopa {
+	padding-top: 3%;
+	font-size: 120%;
+	padding-left: 15%;
+	align-items: center;
+	justify-content: center;
+	padding-right: 15%;
+	text-align: center;
+}
+
+.maradonaseleccion{
+	display: flex;
+}
+
+.maradonaseleccion div{
+	width: 50%;
+	margin-top: 3%;
+	margin-left: 10%;
+}
+
+.maradonaseleccion img{
+	width: 70%;
+}
+
+.maradonaseleccion h2{
+	padding-top: 17%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.maradonasevilla {
+	display: flex;
+}
+
+.maradonasevilla div {
+	margin-top: 5%;
+	width: 50%;
+	margin-left: 10%;
+}
+
+.maradonasevilla img{
+	width: 75%;
+}
+
+.maradonasevilla h2{
+	font-size: 120%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 25%;
+	padding-right: 20%;
+}
+
+.maradonanew{
+	display: flex;
+}
+
+.maradonanew div {
+	margin-top: 10%;
+	width: 50%;
+}
+
+
+.maradonanew h2{
+	font-size: 130%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 2%;
+	margin-left: 8%;
+}
+
+.maradonanew img{
+	width: 80%;
+	padding-left: 10%;
+}
+
+.maradonavueltaboca { 
+	display: flex;
+}
+
+.maradonavueltaboca div{
+	margin-top: 12%;
+	width: 50%;
+}
+
+.maradonavueltaboca img{
+	width: 90%;
+	margin-left: 5%;
+}
+.maradonavueltaboca h2{
+	padding-top: 3%;
+	font-size: 130%;
+	text-align: center;
+	margin-right: 5%;
+
+}
+#h2contenedor{
+	margin-top: 10%;
+}
+
+#h2claudia{
+	margin-top: 9%;
+}
+
+#h2papadiego{
+	margin-top: 4%;
+}
+
+#h2bilardo{
+	margin-top: -3%;
+}
+
+.form{
+	width:100%;
+	height:440px;
+	background:#e6e6e6;
+	border-radius:8px;
+	box-shadow:0 0 40px -10px #000;
+	margin:calc(1vh) auto;
+	padding:10px 30px;
+	box-sizing:border-box;
+	font-family:'Montserrat',sans-serif;
+	font-size: 14px;
+	margin-top: 6%;
+}
+
+h3.contacto{
+	margin:10px 0;
+	padding-bottom:10px;
+	width:150px;
+	color:#78788c;
+	border-bottom:3px solid #78788c;
+	font-size: large;
+}
+
+input{
+	width:100%;
+	margin-top: 30px;
+	padding:10px;
+	box-sizing:border-box;
+	background:none;
+	outline:none;
+	resize:none;
+	border:0;
+	transition:all .3s;
+	border-bottom:2px solid #bebed2
+}
+
+input:focus{
+	border-bottom:2px solid #78788c
+}
+
+button{
+	padding:8px 12px;
+	margin:50px 0 0;
+	border:2px solid #78788c;
+	background:0;color:#5a5a6e;
+	cursor:pointer;
+	transition:all .3s;
+}
+
+button:hover{
+	background:#78788c;
+	color:#fff;
+}
+
+div.pie_contacto{
+	position:absolute;
+	bottom:-45px;
+	right:30%;
+	background:#50505a;
+	color:#fff;
+	width:420px;
+	padding:16px 4px 16px 0;
+	border-radius:6px;
+	box-shadow:10px 10px 40px -14px #000;
+}
+
+div.pie_contacto span{
+		
+		margin:0 5px 0 30px;
+}
+@keyframes show {
+	from {
+		opacity: 0;
+		scale: 25%;
+	}
+
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
+
+
+.articulosjuntosmaradona div {
+	view-timeline-name: --image;
+	view-timeline-axis: block;
+
+	animation-timeline: --image;
+	animation-name: show;
+
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+}
+
+
+
+footer{
+	margin-top: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	background-color: white;
+	
+}
+footer img{
+	max-width: 2.5rem;
+	width: 100%;
+	height: auto;
+	margin-right: .5%;
+}
+
+@media (max-width: 480px){
+
+	.encabezado nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .encabezado nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .encabezado nav ul.responsive {
+        display: flex;
+    }
+
+    .icon {
+        display: block;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+	section div img{
+		max-width: 480px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#ImagenPrincipal img{
+		max-height: 280px;
+	}
+
+	#imgprincipal {
+		width: 150%;
+		margin-left: 20%;
+	}
+	.articulo{
+		margin-top: 1%;
+		display: block;
+	}
+
+	.articulo div h2{
+		display: block;
+		font-size: 1rem;	
+		width: 100%;
+		margin-left: 48%;
+	}
+
+	.articulo img{
+		width: 100%;
+	}
+	#Trailer{
+		margin-left: -7%;
+		margin-right: auto;		
+	}
+
+	#nafta{
+		text-align: center;
+		margin-left: -3.5%;
+	}
+
+	#nafta2{
+		margin-left: 25%;	
+
+	}
+
+	.episodiosdiv{
+		margin-top: 1%;
+		display: block;
+		text-align: center;
+	}
+
+	.episodiosdiv img{
+		margin-top: 6%;
+		width: 100%;
+		text-align: center;
+	}
+
+	.articuloDiegoMaradona div h2{
+		display: block;
+		font-size: 1.1rem;	
+		width: 100%;
+		margin-left: 50%;
+	}
+
+	.articuloDiegoMaradona img{
+		width: 480px;
+		margin-left: -8%;
+	}
+
+	.articuloDiegoMaradona div h2{
+		display: block;
+		font-size: 1.3rem;	
+		width: 150%;
+		margin-left: 10%;
+		
+	}
+
+	.articuloDiegoMaradonaBoca div{
+		margin-top: 1%;
+		display: block;
+		text-align: center;
+	}
+
+	.articuloDiegoMaradonaBoca div img{
+
+		width: 300%;
+		margin-left: -26%;
+	}
+
+	.articuloDiegoMaradonaBoca h2{
+
+		margin-top: 465%;
+		font-size: 1.3rem;	
+		text-align: center;
+		margin-left: -122%;
+		
+	}
+
+	.articuloMaradonaBarcelona{
+		margin-top: 1%;
+		display: block;
+		text-align: center;
+	}
+
+	.articuloMaradonaBarcelona div img{
+		max-width: 480px;
+		width: 210%;
+		margin-left: -16%;
+	}
+
+	.articuloMaradonaBarcelona div h2{
+		width: 150%;
+		margin-left: 8%;
+		font-size: 1.3rem;
+	}
+
+	.articuloMaradonaNapoles {
+		margin-top: 1%;
+		display: block;
+		text-align: center;
+	}
+
+	.articuloMaradonaNapoles div img{
+		max-width: 480px;
+		width: 210%;
+		margin-left: -10%;
+	}
+
+	.articuloMaradonaNapoles div h2{
+		width: 150%;
+		margin-left: 30%;
+		font-size: 1.3rem;
+	}
+
+	#eurocopa{
+		margin-left: 3%;
+	}
+
+	.maradonaseleccion{
+		margin-top: 1%;
+		display: block;
+		text-align: center;
+	}
+	.maradonaseleccion div img{
+		max-width: 480px;
+		width: 180%;
+		margin-left: -10%;
+	}
+	.maradonaseleccion div h2{
+		width: 150%;
+		margin-left: 8%;
+		font-size: 1.3rem;
+	}
+
+	.maradonasevilla {
+		margin-top: 1%;
+		display: block;
+		text-align: center;
+	}
+
+	.maradonasevilla div img{
+		max-width: 480px;
+		width: 180%;
+		margin-left: -10%;
+	}
+
+	.maradonasevilla div h2{
+		width: 150%;
+		margin-left: 8%;
+		margin-top: -8%;
+	}
+
+	.maradonanew{
+		margin-top: 1%;
+		display: block;
+		text-align: center;
+	}
+
+	.maradonanew div img{
+		max-width: 480px;
+		width: 250%;
+		margin-left: -10%;
+	}
+
+	.maradonanew div h2{
+		width: 150%;
+		margin-left: 27%;
+		font-size: 1.3rem;
+	}
+
+	.maradonavueltaboca{
+		margin-top: 1%;
+		display: block;
+		text-align: center;
+	}
+
+	.maradonavueltaboca div img{
+		max-width: 480px;
+		width: 300%;
+		margin-left: -0.5%;
+	}
+
+	.maradonavueltaboca div h2{
+		width: 150%;
+		margin-left: 27%;
+		font-size: 1.3rem;
+	}
+
+	.articuloGaleria div{
+
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	}
+
+	.articuloGaleria img{
+		display: inline-block;
+		width: 40%;
+		
+		margin-left: 2%;
+		margin-bottom: 5%;
+	}
+
+	div.pie_contacto {
+        position: relative;
+        bottom: -15px;
+        right: 5%;
+        background: #50505a;
+        color: #fff;
+        width: 90%; 
+        padding: 16px 4px 16px 0;
+        border-radius: 6px;
+        box-shadow: 10px 10px 40px -14px #000;
+		margin-left: 10%;
+    }
+
+    div.pie_contacto span {
+        margin: 0 5px 0 15px;
+    }
+	footer{
+		height: 80px;	
+	}
+	footer img{
+		max-width: 3rem;
+	}
+	}
