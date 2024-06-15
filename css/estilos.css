@@ -66,11 +66,13 @@ body{
 
 section {
 	margin-top: 3%;
+	max-width: 1300px;
+
 }
 
 #ImagenPrincipal img{
-	width: 100%;
-	height: 620px;
+	
+	height: 550px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;
@@ -95,9 +97,11 @@ section {
 }
 
 .articulo div h2{
-	margin-top: 9%;
+	margin-top: 15%;
 	width: 75%;
 	margin-left: 40%;
+	text-align: left;
+	font-size: 1.3rem;
 }
 
 h2{
@@ -118,15 +122,27 @@ h2{
 	
 }
 
+#SueñoBendito{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 h1{
 	font-family: Arial, Helvetica, sans-serif;
 	color: black;
 	margin-bottom: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
 }
 
 h3{
 	font-family: Arial, Helvetica, sans-serif;
 	color: black;
+	
 }
 
 
@@ -160,6 +176,12 @@ h3{
 	margin-bottom: -10%;
 }
 
+.articuloGaleria{
+
+	margin-bottom: -10%;
+
+}
+
 .articuloGaleria div{
 	margin-top: 6%;
 	margin-left: 7%;
@@ -189,7 +211,7 @@ h1{
 }
 
 .episodiosdiv h2{
-	font-size: 200%;
+	font-size: 150%;
 }
 
 .episodiosdiv img{
@@ -199,7 +221,7 @@ h1{
 #h2episodio2{
 	display: inline-block;
 	margin-right: 5%;
-	font-size: 180%;
+	font-size: 150%;
 }
 
 .articuloDiegoMaradona div{
@@ -207,15 +229,15 @@ h1{
 	width: 50%;
 	display: inline-block;
 	margin-left: 10%;
-	
 }
 
 .articuloDiegoMaradona div h2{
-	margin-top: 6%;
-	text-align: center;
+
+	text-align: left;
+	font-size: 1.3rem;
 }
 .articuloDiegoMaradona img{
-	margin-top: 3%;
+	margin-top: 5%;
 	width: 20%;
 	padding-left: 8%;
 }	
@@ -229,13 +251,14 @@ h1{
 	margin-left:  13%;
 	justify-content: center;
 	align-items: center;
-}a
+}
 
 .articuloDiegoMaradonaBoca div h2{
 	justify-content: center;
 	align-items: center;
-	padding-top: 60%;
-	text-align: center;
+	font-size: 1.3rem;
+	margin-top: 65%;
+	text-align: left;
 }
 
 .articuloDiegoMaradonaBoca img{
@@ -253,12 +276,14 @@ h1{
 	margin-left: 5%;
 	margin-top: 10%;
 	margin-right: 5%;
-	text-align: center;
+	
 }
 
 .articuloMaradonaBarcelona h2{
 	padding-top: 2%;
-	text-align: center;
+	text-align: left;
+	font-size: 1.3rem;
+	margin-left: 8%;
 }
 
 .articuloMaradonaBarcelona img{
@@ -281,25 +306,26 @@ h1{
 .articuloMaradonaNapoles img{
 	width: 80%;
 	padding-left: 10%;
-	padding-top: 15%;
+	padding-top: 22%;
 }
 
 .articuloMaradonaNapoles h2{
-	font-size: 120%;
+	font-size: 1.3rem;
 	padding-top: 15%;
 	margin-left: 2%;
 	padding-right: 5%;
-	text-align: center;
+	text-align: left;
 }
 
 #eurocopa {
-	padding-top: 3%;
-	font-size: 120%;
+	padding-top: 5%;
+	font-size: 1.3rem;
 	padding-left: 15%;
 	align-items: center;
 	justify-content: center;
 	padding-right: 15%;
 	text-align: center;
+	padding-bottom: 5%;
 }
 
 .maradonaseleccion{
@@ -310,6 +336,7 @@ h1{
 	width: 50%;
 	margin-top: 3%;
 	margin-left: 10%;
+	padding-bottom: 5%;
 }
 
 .maradonaseleccion img{
@@ -320,7 +347,8 @@ h1{
 	padding-top: 17%;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
+	text-align: left;
+	font-size: 1.3rem;
 }
 
 .maradonasevilla {
@@ -338,12 +366,12 @@ h1{
 }
 
 .maradonasevilla h2{
-	font-size: 120%;
+	font-size: 1.3rem;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
-	padding-top: 25%;
-	padding-right: 20%;
+	text-align: left;
+	margin-top: 22%;
+	margin-right: 10%;
 }
 
 .maradonanew{
@@ -353,14 +381,15 @@ h1{
 .maradonanew div {
 	margin-top: 10%;
 	width: 50%;
+	margin-left: 5%;
 }
 
 
 .maradonanew h2{
-	font-size: 130%;
+	font-size: 1.3rem;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
+	text-align: left;
 	padding-top: 2%;
 	margin-left: 8%;
 }
@@ -368,6 +397,7 @@ h1{
 .maradonanew img{
 	width: 80%;
 	padding-left: 10%;
+	padding-top: 7%;
 }
 
 .maradonavueltaboca { 
@@ -377,16 +407,19 @@ h1{
 .maradonavueltaboca div{
 	margin-top: 12%;
 	width: 50%;
+	margin-bottom: -5%;
+	margin-left: 5%;
 }
 
 .maradonavueltaboca img{
 	width: 90%;
 	margin-left: 5%;
+	padding-top: 8%;
 }
 .maradonavueltaboca h2{
 	padding-top: 3%;
-	font-size: 130%;
-	text-align: center;
+	font-size: 1.3rem;
+	text-align: left;
 	margin-right: 5%;
 
 }
@@ -418,6 +451,7 @@ h1{
 	font-family:'Montserrat',sans-serif;
 	font-size: 14px;
 	margin-top: 6%;
+	margin-left: 2%;
 }
 
 h3.contacto{
@@ -463,13 +497,14 @@ button:hover{
 div.pie_contacto{
 	position:absolute;
 	bottom:-45px;
-	right:30%;
+	right: 32%;
 	background:#50505a;
 	color:#fff;
 	width:420px;
 	padding:16px 4px 16px 0;
 	border-radius:6px;
 	box-shadow:10px 10px 40px -14px #000;
+	
 }
 
 div.pie_contacto span{
