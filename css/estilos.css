@@ -71,10 +71,10 @@ body {
 	font-family: "Euclid Circular A", "Poppins";
 	color: white;
 	background-color: white;
-	background-image: url(../Imagenes/pixelcut-export.jpg);
+	background-image: url(../Imagenes/DiegoArmandoMaradona/ImagendeFondo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment:fixed;
 	margin: 0;
 	height: 500vh;
 	
@@ -214,13 +214,13 @@ section {
 
 #SueñoBendito{
 
-	color: white;
+	color: black;
 	
 }
 
 h1{
 	font-family: Arial, Helvetica, sans-serif;
-	color: white;
+	color: black;
 	margin-bottom: 2%;
 	display: flex;
 	border-radius: 25px;
@@ -619,7 +619,7 @@ div.pie_contacto span{
   }
   
   .SECCIONMARADONA h2{
-
+	color: #000;
 	margin-top: 5%;
 
   }
