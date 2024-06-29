@@ -5,7 +5,15 @@
 	margin: 0px;
 }
 
-.icon{display: none;}
+.icon{display: none;
+	display: block;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    position: sticky;
+    right: 20px;
+    top: 20px;	
+}
 
 .encabezado{
 	background-color: black;
@@ -64,7 +72,15 @@
 	padding-bottom: -15%;
 }
 
-
+.encabezado nav ul.responsive {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+   top: 30px;
+    left: 0;
+    background-color: black;
+}
 body {
 	margin: 0;
 	background: linear-gradient(white white);
@@ -212,6 +228,13 @@ section {
 	
 }
 
+#VideoGolIngleses{
+	margin-top: 5%;
+    margin-left: 27%;
+    justify-content: center;
+	align-items: center;
+}
+
 #SueñoBendito{
 
 	color: black;
@@ -224,15 +247,11 @@ h1{
 	margin-bottom: 2%;
 	display: flex;
 	border-radius: 25px;
-	
-	
-	
 }
 
 h3{
 	font-family: Arial, Helvetica, sans-serif;
 	color: black;
-	
 }
 
 
@@ -241,7 +260,6 @@ h3{
 	display: block;
 	width: 50%;
 	margin: 0 auto;
-	
 }
 
 .Articulo div h3{
@@ -570,7 +588,6 @@ html{
 	translate: -50% -50%;
 	width: 210%;
 	height: 85%;
-	
 	background: lightskyblue;
   }
   
@@ -673,7 +690,7 @@ html{
   }
 
   .FooterPersonajesPrincipales{
-	margin-top: 68%;
+	margin-top: 78%;
 	position: relative;
     left: 0;
     bottom: 0;
@@ -713,7 +730,7 @@ section {
 	background: black;
 	bottom: 40px;
 	right: 50px;
-  
+
 	text-decoration: none;
 	text-align: center;
 	line-height: 50px;
@@ -778,6 +795,7 @@ section {
         display: none;
         flex-direction: column;
         width: 100%;
+		
     }
 
     .encabezado nav ul li {
@@ -811,6 +829,11 @@ section {
 		margin-left: -6.5%;
 	}
 
+	#SueñoBendito{
+
+		margin-left: 1%;
+	}
+
 	.articulo{
 		
 		display: block;
@@ -834,35 +857,135 @@ section {
 		width: 10%;
 		height: 10%;
 	}
+	#VideoGolIngleses{
+		margin-left: -5%;
+		width: 100%;
+	
+	}
+	.wrap {
+	
+		display:flex;
+		justify-content: center;
+		align-items: stretch;
+		width: 100%;
+		gap: 24px;
+		padding: 24px;
+		flex-wrap: wrap;
+		margin-left: -5%;
+	  }
+	.gotopbtn{
+		background-color: rgb(43, 0, 43);
+		color: white;
+	}
+	
+	.banner {
+		
+		padding-top: 40px;
+		min-height: 100vw;
+		margin-bottom: 40px;
+	  }
 
+	.banner h1 {
+		margin-left: -2%;
+		font-size: 30px;
+	  }
 	
 
-	.episodiosdiv{
-		margin-top: 1%;
+
+	.articulomaradona {
+		margin-left: -10%;
 		display: block;
-		text-align: center;
+		
 	}
-
-	.episodiosdiv img{
-		margin-top: 6%;
+	
+	.articulomaradona div{
+		width: 90%;
+		
+	}
+	
+	.articulomaradona div img {
+		width: 70%;
+		margin-left: 13%;
+	}
+	
+	.articulomaradona div p{
+		margin-top: 2%;
+		margin-left: 7%;
+	}
+	
+	.articulomaradonaSeleccion{
+		display: block;
+		margin-left: -10%;
+	}
+	.articulomaradonaSeleccion div{
+		width: 90%;
+	}
+	
+	.articulomaradonaSeleccion div img {
 		width: 100%;
-		text-align: center;
+		margin-left: 5%;
 	}
+	
+	.articulomaradonaSeleccion div p{
+		margin-left: 12%;
+		
+	}  
 
+	.card {
+		width: 100%;
+		display: block;
+		margin-top: 900%;
+		margin-left: -15%;
+	  }
+	  
+	.card img {
+		width: 100%;
+		margin-left: 13%;
+	  }
+	  
+	.card h2 {
+		font-size: 26px;
+		font-weight: 400;
+		margin-top: 0;
+		margin-right: 30px;
+		margin-bottom: 10px;
+		color: white;
+	  }
+	  
+	.card h3 {
+		font-size: 16px;
+		font-weight: 400;
+		margin: 0;
+		opacity: 0.75;
+		color: black;
+	  }
+	  
+	.card p {
+		font-size: 20px;
+		font-weight: 400;
+		margin-bottom: 30px;
+		opacity: 0.5;
+		color: black;
+	  }
+	  
+	#cards{
+		margin-top: 5%;
+		margin-left: -7%;
+		margin-bottom: 5%;
+	   }
 
 	.articuloGaleria div{
 
-	margin-right: auto;
-	margin-left: auto;
-	width: 90%;
-	}
+		margin-left: -3%;
 
-	.articuloGaleria img{
-		display: inline-block;
-		width: 40%;
+	}
+	
+	.articuloGaleria div img{
 		
-		margin-left: 2%;
-		margin-bottom: 5%;
+		padding: 3%;
+		text-align: center;
+		background-color: lightskyblue;
+		width: 90%;
 	}
 
 	div.pie_contacto {
@@ -883,7 +1006,49 @@ section {
     
 	}
 
+	.clasecontacto{
+		display: block;
+	}
 	
+	.clasecontacto div{
+		width: 100%;
+		margin-left: -5%;
+	}
 	
+	.clasecontacto img{
+		margin-top: 12%;
+		margin-left: -2%;
+	}
+
+	footer {
+		width: 75%;
+		position: relative;
+		margin-left: -25%;
+	}
+
+	.socials {
+		margin-left: 100%;
+		justify-content: center;
+		align-items: center;
+	  }
+	
+	.links {
+		margin-left: 102%;
+	  }
+	  
+	.legal {
+		font-size: 12px;
+		justify-content: center;
+		align-items: center;
+		margin-left: 103%;
+		display: flex;
+	  }
+
+	.FooterPersonajesPrincipales{
+		margin-top: 860%;
+		width: 75%;
+		position: relative;
+		margin-left: -25%;
+	}
 
 }
