@@ -1,5 +1,5 @@
 
-* {
+*{
 	padding: 0px;
 	box-sizing: border-box;
 	margin: 0px;
@@ -25,8 +25,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-top: 1%;
-	
+	padding-top: 1%;	
 }
 
 .encabezado nav ul{
@@ -63,7 +62,6 @@
 
 .encabezado nav ul li:hover> ul{
 	display: block;
-	
 }
 
 .encabezado nav img{
@@ -77,10 +75,11 @@
     flex-direction: column;
     width: 100%;
     position: absolute;
-   top: 30px;
+    top: 30px;
     left: 0;
     background-color: black;
 }
+
 body {
 	margin: 0;
 	background: linear-gradient(white white);
@@ -93,7 +92,6 @@ body {
 	background-attachment:fixed;
 	margin: 0;
 	height: 500vh;
-	
  }
 
 
@@ -117,12 +115,10 @@ section {
 	justify-content: center;
 	height: 100vh;
 	color: #fdfcfd;
-	font-family: "Euclid Circular A", "Poppins";
-	
-  }
+	font-family: "Euclid Circular A", "Poppins";	
+}
   
-
-  .card {
+.card {
 	justify-content: center;
 	display: flex;
 	align-items: center;
@@ -134,9 +130,9 @@ section {
 	margin-left: 3%;
 	margin-top: 10%;
 	
-  }
+}
   
-  .card img {
+.card img {
 	max-width: 280px;
 	width: 35vw;
 	height: 300px;
@@ -145,38 +141,38 @@ section {
 	margin-right: 30px;
 	border-radius: inherit;
 	box-shadow: 0 60px 4e0px rgb(0 0 0 / 8%);
-  }
+}
   
-  .card h2 {
+.card h2 {
 	font-size: 26px;
 	font-weight: 400;
 	margin-top: 0;
 	margin-right: 30px;
 	margin-bottom: 10px;
 	color: white;
-  }
+}
   
-  .card h3 {
+.card h3 {
 	font-size: 16px;
 	font-weight: 400;
 	margin: 0;
 	opacity: 0.75;
 	color: black;
-  }
+}
   
-  .card p {
+.card p {
 	font-size: 20px;
 	font-weight: 400;
 	margin-bottom: 30px;
 	opacity: 0.5;
 	color: black;
-  }
+}
   
-   #cards{
+#cards{
 	margin-top: 5%;
 	margin-left: 1%;
 	margin-bottom: 5%;
-   }
+}
   
   
 
@@ -190,7 +186,6 @@ section {
 .articulo div{
 	width: 80%;
 	margin-left: 20%;
-	
 }
 
 
@@ -210,7 +205,6 @@ section {
 	font-size: 1.3rem;
 	color: black;
 	font-family: "Euclid Circular A", "Poppins";
-
 }
 
 
@@ -236,9 +230,7 @@ section {
 }
 
 #SueñoBendito{
-
 	color: black;
-	
 }
 
 h1{
@@ -276,26 +268,20 @@ h3{
     display: inline-block;
     justify-content: center;
 	align-items: center;
-
 }
 
 
 .articuloGaleria{
-	
 	margin-bottom: -10%;
 	border-radius: 25px;
-	
 }
 
 .articuloGaleria div{
 	margin-top: 6%;
 	margin-left: 1%;
-	
-	
 }
 
-.articuloGaleria div img{
-	
+.articuloGaleria div img{	
 	padding: 3%;
 	text-align: center;
 	background-color: lightskyblue;
@@ -318,36 +304,36 @@ h1{
 	--white: hsl(0, 0%, 100%);
 	--dark: hsl(0, 0%, 7%);
 	--text-gray: hsl(0, 0%, 30%);
-  }
+}
   
   
-  h3 {
+h3 {
 	font-size: 1.5em;
 	font-weight: 700;
-  }
+}
   
-  p {
+p {
 	font-size: 1.3em;
 	line-height: 1.7;
 	font-weight: 300;
 	color: white;
-  }
+}
   
-  .description {
+.description {
 	white-space: wrap;
 	color: #ffffff;
-  }
+}
   
-  a {
+a{
 	text-decoration: none;
 	color: inherit;
-  }
+}
   
   
 
   
   
-  .button {
+.button {
 	display: block;
 	justify-content: center;
 	align-items: center;
@@ -358,21 +344,21 @@ h1{
 	background: transparent;
 	box-shadow: 0px 0px 0px 1px black inset;
 	transition: background 0.4s ease;
-  }
+}
   
-  .button:hover {
+.button:hover {
 	background: var(--purple);
-  }
+}
   
-  .fill-one {
+.fill-one {
 	background: var(--light-bg);
-  }
+}
   
-  .fill-two {
+.fill-two {
 	background: var(--pink);
-  }
+}
 
-  @media (min-width: 1100px) {
+@media (min-width: 1100px) {
 	.box {
 	  flex-basis: calc(40% - 18px);
 	}
@@ -393,7 +379,6 @@ h1{
 	font-family:'Montserrat',sans-serif;
 	font-size: 14px;
 	margin-left: -2%;
-	
 }
 
 h3.contacto{
@@ -495,60 +480,57 @@ html{
 	scroll-behavior: smooth;
 }
   
-  html,
+html,
   body {
 	height: 100%;
 	
-  }
+}
   
-  .background {
+.background {
 	position: absolute;
 	z-index: -1;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	 
-  }
+}
   
-  ul {
+ul {
 	display: flex;
 	list-style: none;
 	padding: 0;
 	margin: 0;
-  }
+}
   
-  .socials {
+.socials {
 	margin-top: 15%;
 	gap: 20px;
 	margin-left: 50%;
 	justify-content: center;
 	align-items: center;
-	
-  }
+}
   
-  .socials a {
+.socials a {
 	font-size: 24px;
 	justify-content: center;
 	align-items: center;
-  }
+}
   
-  .links {
+.links {
 	gap: 10px;
-	
 	margin-left: 50%;
 	justify-content: center;
 	align-items: center;
-  }
+}
   
-  .legal {
+.legal {
 	font-size: 12px;
 	justify-content: center;
 	align-items: center;
 	margin-left: 60%;
-  }
+}
   
-  svg {
+svg {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -559,14 +541,14 @@ html{
 	box-sizing: border-box;
 	display: block;
 	pointer-events: none;
-  }
+}
   
 .BodyDIEGO{
 	margin: 0;
 	background-color: white;
-  }
+}
 
-  .banner {
+.banner {
 	position:static;
 	display: flex;
 	align-items: center;
@@ -577,9 +559,9 @@ html{
 	min-height: 20vw;
 	margin-bottom: 40px;
 	
-  }
+}
 
-  .banner::before {
+.banner::before {
 	content: "";
 	position: absolute;
 	z-index: -1;
@@ -589,34 +571,33 @@ html{
 	width: 210%;
 	height: 85%;
 	background: lightskyblue;
-  }
+}
   
-  .SECCIONMARADONA h2{
+.SECCIONMARADONA h2{
 	color: #000;
 	margin-top: 5%;
+}
 
-  }
-
-  .SECCIONMARADONA p{
+.SECCIONMARADONA p{
 	font-size: 1.3rem;
 	color: #000;
-  }
+}
 
-  .banner h1 {
+.banner h1 {
 	justify-content: left;
 	white-space: nowrap;
 	margin: 0 0 4px;
 	font-size: 40px;
 	color: rgba(0, 0, 0, 0.96);
-  }
+}
   
-  .banner h3 {
+.banner h3 {
 	font-weight: 400;
 	margin-top: 3% ;
 	color: rgba(0, 0, 0, 0.57);
-  }
+}
 
-  .articulomaradona {
+.articulomaradona {
 	margin-top: 5%;
 	display: flex;
 	background-color: lightskyblue;
@@ -680,16 +661,16 @@ html{
 	67% {
 	  border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
 	}
-  }
+}
   
-  .banner img {
+.banner img {
 	width: 220px;
 	height: 220px;
 	object-fit: cover;
 	animation: morph 3.5s linear infinite;
-  }
+}
 
-  .FooterPersonajesPrincipales{
+.FooterPersonajesPrincipales{
 	margin-top: 78%;
 	position: relative;
     left: 0;
@@ -698,9 +679,9 @@ html{
     width: 60%;
     height: 370px;
 	margin-left: 2.5%;
-  }
+}
 
-  footer {
+footer {
 	position: relative;
     left: 0;
     bottom: 0;
@@ -709,9 +690,8 @@ html{
     height: 370px;
 	margin-left: 2.5%;
 	justify-content: center;
-	align-items: center;
-	
-  }
+	align-items: center;	
+}
   
 section {
 	display: flex;
@@ -721,25 +701,23 @@ section {
     padding-bottom: 80px;
     padding-left: 60px;
     width: 100%;
-	
-  }
-  .gotopbtn{
+}
+
+.gotopbtn{
 	position: fixed;
 	width: 50px;
 	height: 50px;
 	background: black;
 	bottom: 40px;
 	right: 50px;
-
 	text-decoration: none;
 	text-align: center;
 	line-height: 50px;
 	color: lightskyblue;
 	font-size: 22px;
-  }
+}
 
-  .wrap {
-	
+.wrap {
 	display:flex;
 	justify-content: center;
 	align-items: stretch;
@@ -748,44 +726,44 @@ section {
 	padding: 24px;
 	flex-wrap: wrap;
 	margin-left: 25%;
-  }
+}
   
-  .box {
+.box {
 	display: flex;
 	flex-direction: column;
 	flex-basis: 100%;
 	position:static;
 	padding: 24px;
 	background: black;
-  }
+}
   
-  .box-top {
+.box-top {
 	display: flex;
 	flex-direction: column;
 	position: static;
 	gap: 12px;
 	margin-bottom: 36px;
-  }
+}
   
-  .box-image {
+.box-image {
 	width: 100%;
 	height: 360px;
 	object-fit: cover;
 	object-position: 50% 20%;
-  }
+}
   
  
 
-  .title-flex {
+.title-flex {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-  }
+}
   
-  .box-title {
+.box-title {
 	border-left: 3px solid var(--purple);
 	padding-left: 12px;
-  }
+}
   
 
 
@@ -794,8 +772,7 @@ section {
 	.encabezado nav ul {
         display: none;
         flex-direction: column;
-        width: 100%;
-		
+        width: 100%;	
     }
 
     .encabezado nav ul li {
@@ -812,8 +789,6 @@ section {
         color: white;
         font-size: 24px;
         cursor: pointer;
-		
-		
     }
 
 	section div img{
@@ -830,12 +805,10 @@ section {
 	}
 
 	#SueñoBendito{
-
 		margin-left: 1%;
 	}
 
 	.articulo{
-		
 		display: block;
 		margin-right: 10%;
 	}
@@ -851,19 +824,20 @@ section {
 		width: 100%;
 		margin-left: -13%;
 	}
+
 	#Trailer{
 		margin-left: -21.5%;
 		margin-right: auto;	
 		width: 10%;
 		height: 10%;
 	}
+
 	#VideoGolIngleses{
 		margin-left: -5%;
 		width: 100%;
-	
 	}
+
 	.wrap {
-	
 		display:flex;
 		justify-content: center;
 		align-items: stretch;
@@ -873,13 +847,13 @@ section {
 		flex-wrap: wrap;
 		margin-left: -5%;
 	  }
+
 	.gotopbtn{
 		background-color: rgb(43, 0, 43);
 		color: white;
 	}
 	
 	.banner {
-		
 		padding-top: 40px;
 		min-height: 100vw;
 		margin-bottom: 40px;
@@ -890,12 +864,9 @@ section {
 		font-size: 30px;
 	  }
 	
-
-
 	.articulomaradona {
 		margin-left: -10%;
 		display: block;
-		
 	}
 	
 	.articulomaradona div{
@@ -917,6 +888,7 @@ section {
 		display: block;
 		margin-left: -10%;
 	}
+
 	.articulomaradonaSeleccion div{
 		width: 90%;
 	}
@@ -975,13 +947,10 @@ section {
 	   }
 
 	.articuloGaleria div{
-
 		margin-left: -3%;
-
 	}
 	
 	.articuloGaleria div img{
-		
 		padding: 3%;
 		text-align: center;
 		background-color: lightskyblue;
@@ -1003,7 +972,6 @@ section {
 
     div.pie_contacto span {
         margin: 0 5px 0 15px;
-    
 	}
 
 	.clasecontacto{
